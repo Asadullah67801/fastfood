@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
     <title>FastEat</title>
 </head>
 <body>
@@ -30,35 +32,35 @@
         </nav>
     </section>
         <div class="content">
-            <div class="left-content">
+            <div class="left-content" data-aos="fade-right">
             <h1>The Best <br>Restaurants In<br> Your Home</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor.</p>
             <button>Order now </button>
             </div>
-            <div class="right-image">
+            <div class="right-image" data-aos="fade-up">
                 <img src="https://codewithsadee.github.io/fasteat/assets/images/hero-banner.png">
                 </div>
             </div>
 
 <section class="second">
     <div class="centre-content">
-    <h2>How it works</h2>
+    <h2 data-aos="fade-up">How it works</h2>
 <p>Magna sit amet purus gravida quis blandit turpis cursus. Venenatis tellus in <br> metus vulputate eu scelerisque felis.</p>
 
 </div>
 <div class="container">
     <div class="row">
-        <div class="card1">
+        <div class="card1" data-aos="fade-right">
             <img src="https://codewithsadee.github.io/fasteat/assets/images/instructuion-1.png">
             <h2>Select Restaurant</h2>
             <p>Non enim praesent elementum facilisis leo<br> vel fringilla. Lectus proin nibh nisl<br> condimentum id. Quis varius quam quisque id diam vel.</p>
 </div>
-<div class="card1">
+<div class="card1" data-aos="fade-up">
     <img src="https://codewithsadee.github.io/fasteat/assets/images/instructuion-2.png">
     <h2>Select Menu</h2>
     <p>Non enim praesent elementum facilisis leo <br>vel fringilla. Lectus proin nibh nisl <br>condimentum id. Quis varius quam quisque<br> id diam vel.</p>
 </div>
-<div class="card1">
+<div class="card1" data-aos="fade-left">
     <img src="https://codewithsadee.github.io/fasteat/assets/images/instructuion-3.png">
     <h2>Wait For Delivery</h2>
     <p>Non enim praesent elementum facilisis leo<br> vel fringilla. Lectus proin nibh nisl <br>condimentum id. Quis varius quam quisque<br> id diam vel.</p>
@@ -193,6 +195,8 @@
            </div>
                 </div>
                 </footer>
-
+                <script>
+                    AOS.init();
+                  </script>
 </body>
 </html>
