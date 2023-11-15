@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: sans-serif;
 }
 nav{
     display:flex;
@@ -17,13 +18,52 @@ nav{
 
 nav img{
 
+
     height:50px;
+
+}
+input{
+    margin-top: 30px;
+    width:450px;
+    border-radius: 5px;
+    height: 40px;
+border: none;
+box-shadow: 4px 2px 2px 3px rgba(0,0,0,0.2);
+}
+::placeholder{
+    font-size: 20px;
+
+}
+.newsletter-right h2{
+    font-size: 65px;
+    
+}
+.newsletter-right{
+    margin:auto;
+}
+.newsletter-image{
+    margin:auto;
+}
+.Newsletter{
+    padding: 100px 0;
+}
+.newletter-flex-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
 
 }
 .left-content h1{
     font-size: 80px;
     font-weight: bold;
     font-family: sans-serif;
+}
+.flex-content{
+    background-color:linear-gradient(to 180deg #FFEAE9,white);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .flex-container{
     padding: 150px 0;
@@ -41,7 +81,7 @@ nav img{
 .right-content2 p{
     font-size: 25px;
     margin-top: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .right-content2 h2{
     font-size: 45px;
@@ -61,16 +101,19 @@ nav img{
 .left-content-two p{
     margin-top: 40px;
     font-size: 25px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
 }
 .centre-content{
     padding: 100px 0;
-    font-family: Arial, Helvetica, sans-serif;
+
     text-align: center;
 }
 .centre-content h2{
     font-size: 60px;
 
+}
+.left-flex-content{
+    margin:auto;
 }
 .centre-content p{
     font-size: 28px;
@@ -104,14 +147,158 @@ nav img{
     justify-content: center;
 align-items: center;
 }
+.left-flex-content{
+    margin:auto;
+
+}
 .card1 {
     font-size: 25px;
 }
 .left-content button{
     margin-top: 20px;
+    cursor:pointer;
     background-color: transparent;
     border:1px solid #F09E05;
     padding: 20px 35px;
     font-size: 20px;
     border-radius: 8px;
+}
+.right-flex-content{
+    margin:auto;
+}
+.right-flex-content p{
+    font-size:30px;
+}
+.right-flex-content h2{
+    font-size: 45px;
+}
+.banner-container{
+    padding: 100px 0;
+    margin:auto;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+}
+.contents{
+    font-size: 28px;
+    margin:8px;
+}
+.banner-container h2{
+    font-size:60px;
+
+}
+.newsletter-image{
+    height:400px;
+}
+.right-flex-content button{
+    padding:15px 28px;
+    background-color: #F09E05;
+    margin-top: 15px;
+    font-size:20px ;
+    border:none;
+
+    color: white;
+    border-radius: 8px;
+}
+.grid{
+    display:flex;
+justify-content: center;
+ 
+
+    margin:auto;
+    align-items:center;
+}
+.grid-leftcontent{
+    margin:auto;
+}
+.grid-right-content{
+    margin:auto;
+}
+
+.grid-leftcontent h1{
+    font-size: 60px;
+}
+.grid-leftcontent p{
+    font-size:28px;
+}
+.row-card{
+    margin:20px;
+    border:10px solid #F09E05;
+    border-radius: 8px;
+
+}
+.row-card button{
+    display:inline-block;
+    padding: 15px 28px;
+    background-color:#F09E05;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+}
+.last{
+    text-align: center;
+    padding: 100px 0;
+    background-color: #363636;
+    color: white;
+    font-family: sans-serif;
+
+}
+.last h1{
+    margin-bottom: 50px;
+    font-size: 70px;
+
+}
+.row-flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    line-height: 1.4;
+}
+.footer-container{
+    background-color: #363636;
+}
+.grid-leftcontent{
+    margin: auto;
+}
+.menu{
+    margin-left: 40px;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+    align-items: center;
+
+    margin: auto;
+}
+.col{
+    margin: 50px;
+}
+.footer-container h2{
+    color: white;
+    font-size: 60px;
+
+}
+.footer-container p{
+    color:gray;
+}
+.grid-leftcontent{
+    margin:auto;
+}
+.portfolio{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    padding: 100px 0;
+}
+.portfolio img{
+height:90px;
+}
+.title{
+    font-size:25px;
+    margin: 5px;
 }
