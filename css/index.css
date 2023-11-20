@@ -12,7 +12,7 @@ nav{
 .navlinks ul li{
     display:inline-block;
     margin:10px;
-  
+  font-size: 17px;
     font-family: sans-serif;
 }
 
@@ -134,9 +134,12 @@ box-shadow: 4px 2px 2px 3px rgba(0,0,0,0.2);
 .navlinks ul li:hover{
     color: #F09E05;
 }
+.navlinks{
+    margin-left: 20px;
+}
 .navlinks ul li{
     transition: 0.2s;
-    font-size: 26px;
+
     font-family: sans-serif;
     cursor: pointer;
 }
@@ -200,6 +203,15 @@ align-items: center;
     color: white;
     border-radius: 8px;
 }
+.row{
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    margin:10px;
+}
+
 .grid{
     display:flex;
 justify-content: center;
@@ -207,6 +219,42 @@ justify-content: center;
 
     margin:auto;
     align-items:center;
+}
+.grid{
+    display: flex;
+    justify-content:space-between;
+}
+.newsletter-image img{
+    height:300px;
+}
+
+@media(max-width:700px){
+    .grid{
+        flex-direction: column;
+    }
+    .newletter-flex-container{
+        flex-direction: column;
+    }
+
+    .navlinks ul li{
+        display:none;
+    }
+    .flex-container{
+        flex-direction: column;
+     }
+     .row{
+        flex-direction: column;
+     }
+
+    .row-flex{
+        flex-direction: column;
+    }
+    .flex-content{
+        flex-direction: column;
+    }
+    .grid-row{
+        grid-template-columns: repeat(2,2fr);
+    }
 }
 .grid-leftcontent{
     margin:auto;
@@ -221,20 +269,32 @@ justify-content: center;
 .grid-leftcontent p{
     font-size:28px;
 }
+.left-content button:hover{
+
+
+    background-color: #F09E05;
+    color: white;
+}
 .row-card{
     margin:20px;
     border:10px solid #F09E05;
     border-radius: 8px;
 
 }
+.banner-container h2{
+    margin: auto;
+}
 .row-card button{
-    display:inline-block;
-    padding: 15px 28px;
-    background-color:#F09E05;
+    display:block;
+    padding:  15px 28px;
+    background-color:red;
+    border: 1px solid white;
     color:white;
     font-size: 20px;
-    border:none;
+    margin-top: 20px;
+  margin: 8px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .last{
     text-align: center;
@@ -244,10 +304,36 @@ justify-content: center;
     font-family: sans-serif;
 
 }
+.row-flex img {
+    height:300px;
+}
+.newsletter-image img {
+    height:300px;
+}
+.grid-right-content img {
+    height: 400px;
+}
+.left-flex-content img {
+    height: 400px;
+}
+.right-content2 img{
+    height:400px;
+}
+@media(max-width:700px){
+    .content{
+        flex-direction: column;
+    }
+}
+.right-image img {
+    height:400px;
+}
 .last h1{
     margin-bottom: 50px;
     font-size: 70px;
 
+}
+.grid-right-content img {
+    height:400px;
 }
 .row-flex{
     display:flex;
@@ -301,4 +387,8 @@ height:90px;
 .title{
     font-size:25px;
     margin: 5px;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
 }
